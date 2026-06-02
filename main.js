@@ -50,6 +50,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/bacheca', (req,res) =>{
-    res.send(products)
+    res.json(products)
 })
 
